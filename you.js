@@ -26,3 +26,8 @@ function name(n) {
 }
 let sujal = "sujal";
 name(sujal);
+//ALERT
+let cout = confirm("Are you 18 and above");
+let cin = prompt("What is your name?");
+console.log(cin);
+console.log(cout);
