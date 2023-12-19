@@ -10,3 +10,13 @@ const person2 = "shyam";
 //Proudces error when exectued beacuse const value cannot be altered later on
 //person1='laxman';
 console.log(person2);
+//printing undefined as a data type and a value
+let h = undefined;
+console.log(h);
+console.log(typeof h);
+//switch case
+let k = 25;
+switch (k) {
+  case 25:
+    console.log("the number was 25");
+}
