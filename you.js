@@ -20,3 +20,9 @@ switch (k) {
   case 25:
     console.log("the number was 25");
 }
+//function
+function name(n) {
+  console.log(n);
+}
+let sujal = "sujal";
+name(sujal);
