@@ -31,3 +31,7 @@ let cout = confirm("Are you 18 and above");
 let cin = prompt("What is your name?");
 console.log(cin);
 console.log(cout);
+//if loop
+if (cin == "sujal") {
+  console.log("The user is sujal");
+}
