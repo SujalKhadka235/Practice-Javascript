@@ -41,3 +41,14 @@ console.log(2 < 5);
 //use triple equals to check condition or ele it will typecast both the values into the same data type.
 console.log(5 == "5.0"); //this will return true because of typecast.
 console.log(5 === "5.0"); //this will return false because of comparing the values.
+
+//Truthsy and falsy values
+if (5) {
+  console.log("the number is 5");
+}
+//Anything other than 0,NULL,NAN(Not A Number),undefined is truthsy value
+
+//
+//Guard operator
+false && console.log("hello world");
+true && console.log("This is guard operator");
