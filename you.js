@@ -27,6 +27,7 @@ function name(n) {
 let sujal = "sujal";
 name(sujal);
 //ALERT
+/*
 let cout = confirm("Are you 18 and above");
 let cin = prompt("What is your name?");
 console.log(cin);
@@ -34,4 +35,9 @@ console.log(cout);
 //if loop
 if (cin == "sujal") {
   console.log("The user is sujal");
-}
+}*/
+//testing boolean values this will return true.
+console.log(2 < 5);
+//use triple equals to check condition or ele it will typecast both the values into the same data type.
+console.log(5 == "5.0"); //this will return true because of typecast.
+console.log(5 === "5.0"); //this will return false because of comparing the values.
