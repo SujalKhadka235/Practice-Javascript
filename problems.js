@@ -6,7 +6,6 @@ function check() {
   }
 }
 check();*/
-//A program to sum values of an array
 //find the max elements in an array
 /*
 let a = [1, 2, 18, 10];
