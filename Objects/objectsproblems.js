@@ -28,3 +28,30 @@
 // };
 // console.log("area= " + area());
 // console.log("perimeter= " + perimeter());
+// let result = [];
+// let secondresult = "";
+// const arrange = () => {
+//   const array = string.split("");
+//   let result = array.sort();
+//   return result;
+// };
+// const rearrange = () => {
+//   let secondresult = toString(result);
+//   return secondresult;
+// };
+// console.log(arrange());
+// const string = "webmaster";
+// const reArranger = (input) => {
+//   return input.split("").sort().toString().replaceAll(",", "");
+// };
+
+// console.log(reArranger(string));
+//write a function that shows if the value is palindrome or not?
+//for eg:mom(true)
+//palindrome(121)true
+//palimndrome(-10)false
+//palindrome (10)false
+//write a javascript function that accepts string as a parameter and converts the first letter
+//of each word into upper case
+//eg: the quick brown fox
+//output: The Quick Brown Fox
