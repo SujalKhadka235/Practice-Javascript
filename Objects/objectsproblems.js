@@ -55,3 +55,26 @@
 //of each word into upper case
 //eg: the quick brown fox
 //output: The Quick Brown Fox
+// const palindrome = () => {
+//   const str1 = prompt("enter your number");
+//   if (typeof str1 === "string") {
+//     let str2 = str1;
+//     const rev = str2.split("").reverse().join("");
+//     if (str1 == rev) {
+//       alert("The given entity is a palindrome");
+//     } else {
+//       alert("The given entity is not a palindrome");
+//     }
+//   } else {
+//     let str3 = String(str1);
+//     const rev2 = str3.split("").reverse().join("");
+//     if (str1 == rev2) {
+//       alert("The given entity is a palindrome");
+//     } else {
+//       alert("The given entity is not a palindrome");
+//     }
+//   }
+// };
+// palindrome();
+const upper = ["the", "quick", "brown", "fox"];
+upper.split("").join("");

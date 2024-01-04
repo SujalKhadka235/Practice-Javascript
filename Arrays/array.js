@@ -1,13 +1,13 @@
 //ARRAYS
 //create array-initalization
 //spread operator
-const array = {
-  name: "sujal",
-  age: 22,
-  iseligibletovote: true,
-};
-const { name, age, ...data } = array;
-console.log(data);
+// const array = {
+//   name: "sujal",
+//   age: 22,
+//   iseligibletovote: true,
+// };
+// const { name, age, ...data } = array;
+// console.log(data);
 // console.log(array);
 //Access the last element of an array
 // console.log(array[array.length - 1]);
@@ -54,3 +54,38 @@ console.log(data);
 // };
 
 // const result = ex.map(sortAge);
+//map()
+const users = [
+  { name: "rakhtim", roles: ["admin"] },
+  { name: "harry", roles: ["guest"] },
+  { name: "sita", roles: ["admin", "vendor"] },
+];
+
+// const checkrole = arr.map((data,index) => {
+//   if (data.roles == "admin") {
+//     alert("the user is an admin");
+//   } else {
+//     alert("the user is a" + data.roles);
+//   }
+// });
+// const checkRole = (role) => {
+// const newusers = users.map((user) => {
+//   if (user.roles.includes(role)) {
+//     return user.name;
+//   }
+// });
+console.log(users.filter((user) => user.roles.includes("vendor")));
+// };
+// console.log(checkRole("vendor"));
+//filter returns the emtity if the condition is true.it uses implicit function
+// write a function that sums every character from 0 to 100
+let i = 0;
+const arr = [];
+while (i < 100) {
+  i++;
+  arr[i] = i;
+}
+const newarr = arr.reduce((sum, a) => {
+  return (sum += a);
+}, 0);
+console.log(newarr);
