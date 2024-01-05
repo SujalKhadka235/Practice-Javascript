@@ -78,14 +78,14 @@
 // palindrome();
 
 function last(data, index) {
-  // let result = [];
-  // let i = 0;
-  // while (i < index && data.length > 0) {
-  //   result[i] = data[data.length - 1];
-  //   data.pop();
-  //   i++;
-  // }
-  // return result;
+  let result = [];
+  let i = 0;
+  while (i < index && data.length > 0) {
+    result[i] = data[data.length - 1];
+    data.pop();
+    i++;
+  }
+  return result;
   if (index === 1 || index === undefined) return data.pop();
   const lastIndex = data.length - 1;
   const end = lastIndex;

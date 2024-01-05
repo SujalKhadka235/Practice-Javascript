@@ -1,0 +1,18 @@
+p {
+  color: red;
+  font-size: 2rem;
+}
+div {
+  color: yellow;
+  font-size: 2rem;
+}
+#first {
+  color: blue !important;
+}
+.second {
+  color: orange;
+  font-size: 2 rem;
+}
+#dateid {
+  color: red;
+}
