@@ -76,5 +76,29 @@
 //   }
 // };
 // palindrome();
-const upper = ["the", "quick", "brown", "fox"];
-upper.split("").join("");
+
+function last(data, index) {
+  // let result = [];
+  // let i = 0;
+  // while (i < index && data.length > 0) {
+  //   result[i] = data[data.length - 1];
+  //   data.pop();
+  //   i++;
+  // }
+  // return result;
+  if (index === 1 || index === undefined) return data.pop();
+  const lastIndex = data.length - 1;
+  const end = lastIndex;
+  const start = data.length - index;
+  const newArr = data.splice(start, end);
+  return newArr;
+}
+
+function last1(data) {
+  return data[data.length - 1];
+}
+console.log(last([7, 9, 0, 9, 9], 3));
+
+//const mycolor = ["red", "green", "white", "black"];
+//const str = mycolor.join("");
+//console.log(str);
