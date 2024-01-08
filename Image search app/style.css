@@ -14,3 +14,19 @@ h1 {
   text-align: center;
   margin: 40px 0 60px 0;
 }
+.search-result {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  text-align: center;
+}
+img {
+  width: 300px;
+  height: 450px;
+  display: inline-block;
+}
+.search-results {
+  content: "";
+  clear: both;
+  display: table;
+}
