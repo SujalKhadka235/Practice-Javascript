@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="text-center">User registration</h2>
+      <form onsubmit="welcome();return false;">
+        <!-- <div class="row">
+          <div class="col-6">
+            <label>What is your name?</label>
+            <input type="text" />
+          </div>
+          <div class="col-6">
+            <label>What is your date of birth?</label>
+            <input type="date" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <label>enter your password: </label>
+            <input type="password" />
+          </div>
+          <div class="col">
+            <label>Pick your college </label>
+          </div>
+          <div class="col">
+            <select>
+              <option value="abc">abc college</option>
+              <option value="ARYAN">Aryan college</option>
+            </select>
+          </div>
+        </div> -->
+
+        <div class="row">
+          <div class="col">
+            <label>Name</label>
+            <input
+              id="name"
+              class="form-control"
+              type="text"
+              placeholder="Enter Name"
+            />
+            <label>Password</label>
+            <input
+              id="password"
+              class="form-control"
+              type="password"
+              placeholder="Enter Password"
+            />
+          </div>
+          <div class="col">
+            <label>Select your college</label>
+            <select id="college" class="form-control">
+              <option value="">Select Your College</option>
+              <option value="ace">Ace College</option>
+              <option value="aryan">Aryan College</option>
+            </select>
+            <label>Email</label>
+            <input
+              id="email"
+              class="form-control"
+              type="email"
+              placeholder="Enter Email"
+            />
+          </div>
+            <div class="row">
+              <div class="col">
+                <input type="radio" name="gender" value="male" />
+                <label for="male"> Male</label>
+                <input type="radio" name="gender" value="female" />
+                <label for="female"> Female</label>
+              </div>
+            </div>
+            <div class="row">
+              <button type="submit" class="btn btn-primary mt-3 w-25">
+                Submit
+              </button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script src="index2.js"></script>
+  </body>
+</html>
